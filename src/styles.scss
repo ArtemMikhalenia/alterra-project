@@ -1,1 +1,48 @@
-/* You can add global styles to this file, and also import other style files */
+@use '@angular/material' as mat;
+@use 'icons';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color: #000000;
+}
+
+:root {
+  --red: #ca0100;
+  --red-100: #d90022;
+  --black: #262626;
+  --black-100: #595d60;
+  --gray: #737373;
+  --gray-100: #adadb0;
+  --gray-200: #c2c2c4;
+  --gray-300: #e1e1e1;
+  --gray-400: #eff0f0;
+  --white: #ffffff;
+}
+
+html {
+  display: block;
+  width: 100%;
+  height: 100%;
+  @include mat.theme(
+    (
+      color: (
+        primary: mat.$rose-palette,
+        tertiary: mat.$red-palette,
+      ),
+      typography: Roboto,
+      density: 0,
+    )
+  );
+}
+
+body {
+  width: 100%;
+  height: 100%;
+
+  font: var(--mat-sys-body-medium);
+}
