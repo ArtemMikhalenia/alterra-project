@@ -1,9 +1,10 @@
 @font-face {
   font-family: 'icons';
   src:
-    url('/icons/icons.woff2') format('woff2'),
     url('/icons/icons.ttf') format('truetype'),
-    url('/icons/icons.woff') format('woff');
+    url('/icons/icons.woff') format('woff'),
+    url('/icons/icons.otf') format('otf');
+
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -32,4 +33,8 @@
 
 .icon-whatsapp:before {
   content: '\f001';
+}
+
+.icon-call:before {
+  content: '\f003';
 }

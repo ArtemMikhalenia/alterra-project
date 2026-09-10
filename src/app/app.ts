@@ -1,4 +1,4 @@
-import { Component, signal } from '@angular/core';
+import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { Header } from './components/header/header';
 import { Footer } from './components/footer/footer';
@@ -10,5 +10,5 @@ import { Footer } from './components/footer/footer';
   styleUrl: './app.scss',
 })
 export class App {
-  protected readonly title = signal('alterra-project');
+  // protected readonly title = signal('alterra-project');
 }
