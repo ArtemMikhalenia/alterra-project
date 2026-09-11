@@ -23,10 +23,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-location:before {
-  content: '\f002';
-}
-
 .icon-clock:before {
   content: '\f000';
 }
@@ -35,6 +31,26 @@
   content: '\f001';
 }
 
+.icon-location:before {
+  content: '\f002';
+}
+
 .icon-call:before {
   content: '\f003';
+}
+
+.icon-search:before {
+  content: '\f004';
+}
+
+.icon-sort:before {
+  content: '\f005';
+}
+
+.icon-favorites:before {
+  content: '\f006';
+}
+
+.icon-small-arrow:before {
+  content: '\f007';
 }
