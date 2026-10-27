@@ -1,0 +1,17 @@
+.main-block {
+  position: relative;
+  height: 600px;
+
+  border-radius: 25px;
+
+  background: var(--gray-400);
+
+  .main-block-bg {
+    position: absolute;
+    max-width: 1222px;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+}
